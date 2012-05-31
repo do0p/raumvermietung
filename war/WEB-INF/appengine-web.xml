@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<appengine-web-app xmlns="http://appengine.google.com/ns/1.0">
+	<application>raummiete-lws</application>
+	<version>1</version>
+
+	<system-properties>
+		<property name="java.util.logging.config.file" value="WEB-INF/logging.properties" />
+		<property name="com.google.gdata.DisableCookieHandler" value="true" />
+		<property name="adminUser" value="raummiete.lws@gmail.com" />
+	</system-properties>
+
+</appengine-web-app>

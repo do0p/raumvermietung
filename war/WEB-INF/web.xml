@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE web-app
+    PUBLIC "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+    "http://java.sun.com/dtd/web-app_2_3.dtd">
+
+<web-app>
+  
+  <!-- Servlets -->
+  <servlet>
+    <servlet-name>eventServlet</servlet-name>
+    <servlet-class>at.brandl.rb.server.EventServiceImpl</servlet-class>
+  </servlet>
+  
+  <servlet-mapping>
+    <servlet-name>eventServlet</servlet-name>
+    <url-pattern>/raumvermietung/event</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <servlet-name>loginServlet</servlet-name>
+    <servlet-class>at.brandl.rb.server.LoginServiceImpl</servlet-class>
+  </servlet>
+  
+  <servlet-mapping>
+    <servlet-name>loginServlet</servlet-name>
+    <url-pattern>/raumvermietung/login</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <servlet-name>csvServlet</servlet-name>
+    <servlet-class>at.brandl.rb.server.CsvService</servlet-class>
+  </servlet>
+  
+  <servlet-mapping>
+    <servlet-name>csvServlet</servlet-name>
+    <url-pattern>/csv</url-pattern>
+  </servlet-mapping>
+  
+  <!-- Default page to serve -->
+  <welcome-file-list>
+    <welcome-file>RaumVermietung.html</welcome-file>
+  </welcome-file-list>
+
+</web-app>
