@@ -70,7 +70,7 @@ public class MonthSelector extends HorizontalPanel {
 
 	private void setupYearSelection(int pCurrentYear) {
 		year.clear();
-		for (int yr = FIRST_YEAR; yr <= pCurrentYear + 1; yr++) {
+		for (int yr = FIRST_YEAR; yr <= pCurrentYear + 2; yr++) {
 			year.addItem(Integer.toString(yr));
 		}
 		year.setSelectedIndex(pCurrentYear - FIRST_YEAR);

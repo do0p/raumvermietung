@@ -1,0 +1,4 @@
+# Module raumvermietung
+# RPC service class, partial path of RPC policy file
+at.brandl.rb.client.LoginService, 1A2202CA2C588AB34448DA27FE9B992C.gwt.rpc
+at.brandl.rb.client.EventService, E25ECBD3762B92EA105119AD1F68A363.gwt.rpc

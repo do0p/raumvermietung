@@ -5,14 +5,8 @@
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.junit.JUNIT_CONTAINER/4"/>
 	<classpathentry kind="con" path="com.google.appengine.eclipse.core.GAE_CONTAINER/App Engine"/>
-	<classpathentry kind="lib" path="C:/JavaLibs/javamail-1.4.2/mail.jar"/>
-	<classpathentry kind="lib" path="C:/JavaLibs/jaf-1.1.1/activation.jar"/>
-	<classpathentry kind="lib" path="C:/JavaLibs/gdata/java/lib/gdata-client-1.0.jar"/>
-	<classpathentry kind="lib" path="C:/JavaLibs/gdata/java/lib/gdata-client-meta-1.0.jar"/>
-	<classpathentry kind="lib" path="C:/JavaLibs/gdata/java/lib/gdata-core-1.0.jar"/>
-	<classpathentry kind="lib" path="C:/JavaLibs/gdata/java/lib/gdata-media-1.0.jar"/>
-	<classpathentry kind="lib" path="C:/JavaLibs/gdata/java/lib/gdata-calendar-2.0.jar"/>
-	<classpathentry kind="lib" path="C:/JavaLibs/gdata/java/lib/gdata-calendar-meta-2.0.jar"/>
-	<classpathentry kind="con" path="com.google.gwt.eclipse.core.GWT_CONTAINER/GWT (4)"/>
+	<classpathentry kind="con" path="com.google.appengine.eclipse.core.GAE_CONTAINER"/>
+	<classpathentry kind="con" path="com.google.gwt.eclipse.core.GWT_CONTAINER"/>
+	<classpathentry kind="con" path="com.google.gdt.eclipse.managedapis.MANAGED_API_CONTAINER/calendar-v3r105lv1.18.0-rc"/>
 	<classpathentry kind="output" path="war/WEB-INF/classes"/>
 </classpath>
